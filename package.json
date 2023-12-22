@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ok.ts",
+  "scripts": {
+    "watcher": "tsc -w",
+    "start": "node dist/ok.js",
+    "start:nodemone": "nodemon dist/ok.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
+}
